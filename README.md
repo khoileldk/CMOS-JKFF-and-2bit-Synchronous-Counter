@@ -30,14 +30,14 @@ The counter follows the sequence:
 ## 🔹 D Latch Design
 
 ### Schematic
-![dlatch](images/dlatch_schematic.png)
+![dlatch](images/D_latch.jpg)
 
 ---
 
 ## 🔹 D Flip-Flop Design
 
 ### Schematic
-![dff](images/dff_schematic.png)
+![dff](images/D_Flipflop.jpg)
 
 The D Flip-Flop was constructed using D Latches and serves as the storage element for the JK Flip-Flop design.
 
@@ -46,13 +46,13 @@ The D Flip-Flop was constructed using D Latches and serves as the storage elemen
 ## 🔹 JK Flip-Flop Design
 
 ### Schematic
-![jkff_schematic](images/jkff_schematic.png)
+![jkff_schematic](images/JK_Flipflop.jpg)
 
 ### Layout
-![jkff_layout](images/jkff_layout.png)
+![jkff_layout](images/JK_Flipflop_Layout.jpg)
 
 ### Functional Simulation
-![jkff_waveform](images/jkff_waveform.png)
+![jkff_waveform](images/JK_waveform.jpg)
 
 The JK Flip-Flop was implemented using the previously designed D Flip-Flop and NAND2 logic based on De Morgan's theorem.
 
@@ -72,13 +72,13 @@ The counter is implemented using two custom JK Flip-Flops.
 | 11 | 00 |
 
 ### Schematic
-![counter_schematic](images/counter_schematic.png)
+![counter_schematic](images/Counter.jpg)
 
 ### Layout
-![counter_layout](images/counter_layout.png)
+![counter_layout](images/Counter_Layout.jpg)
 
 ### Functional Simulation
-![counter_waveform](images/counter_waveform.png)
+![counter_waveform](images/Counter_waveform.jpg)
 
 ---
 
