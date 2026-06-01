@@ -1,8 +1,8 @@
-# CMOS JK Flip-Flop and 2-bit Synchronous Counter Design (90nm)
+# CMOS JK Flip-Flop and 2-bit Synchronous Counter Design 
 
 ## 📌 Overview
 
-This project presents the transistor-level design of a CMOS JK Flip-Flop and a 2-bit synchronous modulo-4 counter using Synopsys Custom Designer with 90nm CMOS technology.
+This project presents the transistor-level design of a CMOS JK Flip-Flop and a 2-bit synchronous modulo-4 counter.
 
 The design flow consists of:
 
