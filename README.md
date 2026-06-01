@@ -1,15 +1,36 @@
-# CMOS JK Flip-Flop and 2-bit Synchronous Counter design with schematic, layout, and functional simulation.
-## 📌 Overview
+## ⏱ 2-bit Synchronous Counter Design
 
-This project presents the design and verification of a CMOS JK Flip-Flop and a 2-bit synchronous counter using NAND2 gates.
+The counter was implemented using two custom CMOS JK Flip-Flops.
 
-The project includes:
-- D Flip-Flop design
-- JK Flip-Flop implementation from D Flip-Flop
-- NAND2-based logic realization using De Morgan's theorem
-- Schematic design
-- Full custom layout implementation
-- Functional simulation and waveform verification
-- 2-bit synchronous counter design using JK Flip-Flops
+### Counter Operation
 
-The focus of this project is on functional correctness and physical implementation rather than timing optimization.
+The circuit is a 2-bit synchronous modulo-4 binary counter. Both flip-flops are driven by the same clock signal, ensuring that all state transitions occur simultaneously on the active clock edge.
+
+The counter cycles through the following sequence:
+
+00 → 01 → 11 → 00 → ...
+
+State transition table:
+
+| Current State | Next State |
+|--------------|------------|
+| 00 | 01 |
+| 01 | 11 |
+| 11 | 00 |
+
+
+### State Diagram
+
+![state_diagram](images/state_diagram.png)
+
+### Schematic
+
+![counter_schematic](images/counter_schematic.png)
+
+### Layout
+
+![counter_layout](images/counter_layout.png)
+
+### Functional Simulation
+
+![counter_waveform](images/counter_waveform.png)
