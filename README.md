@@ -18,15 +18,6 @@ The counter follows the sequence:
 
 ---
 
-## 🛠 Design Environment
-
-- Tool: Synopsys Custom Designer
-- Technology: 90nm CMOS
-- Design Style: Static CMOS
-- Logic Gates: NAND2-based implementation
-
----
-
 ## 🔹 D Latch Design
 
 ### Schematic
